@@ -1,0 +1,54 @@
+body {
+	font-family: Helvetica;
+	background: #6C746D;
+}
+table, td, tr {
+	vertical-align: top;
+	padding: 0px;
+	margin: 0px;
+	border-collapse: collapse;
+}
+body > table {
+	width: 900px;
+	display: block;
+	margin: 0 auto 0 auto;
+	border: 0px;
+}
+td {
+	padding: 5px;
+}
+.commonWordings {
+	background: #F48F35;
+}
+.commonWordings td {
+	border: 1px solid #e9750d;
+}
+.precedingStrings {
+	background: #DBCF8C;
+}
+.precedingStrings td {
+	border: 1px solid #cfbf65;
+}
+
+.followingStrings {
+	background: #69C0C9;
+}
+.followingStrings td {
+	border: 1px solid #44b0bc;
+}
+.predicate {
+	background: #AFD552;
+	border: 1px solid #0C4942;
+}
+.predicateName {
+	width: 300px;
+}
+.fancybox-title {
+	width: 500px;
+	left: -50%;
+	position: relative;
+}
+a:link {color:#000000;}      /* unvisited link */
+a:visited {color:#000000;}  /* visited link */
+a:hover {color:#000000;}  /* mouse over link */
+a:active {color:#000000;}  /* selected link */
