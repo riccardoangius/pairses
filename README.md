@@ -1,4 +1,5 @@
 # PaIRSES
+Bachelor Thesis Dissertation products, presented on 2013-09-23
 
 # Abstract
 
