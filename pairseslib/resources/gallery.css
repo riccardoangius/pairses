@@ -1,0 +1,130 @@
+body {
+	font-family: Helvetica;
+	background: #6C746D;
+}
+table, td, tr {
+	vertical-align: top;
+	padding: 0px;
+	margin: 0px;
+	border-collapse: collapse;
+}
+a:link {color:#000000;}      /* unvisited link */
+a:visited {color:#000000;}  /* visited link */
+a:hover {color:#000000;}  /* mouse over link */
+a:active {color:#000000;}  /* selected link */
+.fancybox img {
+	max-width: 200px;
+	max-height: 200px;
+	border-radius: 10px;
+}
+.fancybox {
+	padding: 30px;
+}
+.predicate .uri, .match .triple {
+	font-weight: bold;
+	display: block;
+	padding: 30px;
+}
+.predicate .predicateTotalPatterns {
+	padding: 30px;
+	display: block;
+}
+.patternGraphs, .scrollmatchtable {
+	overflow-x: scroll;
+	white-space: nowrap;
+	position: relative;
+}
+.patternGraphs {
+	height: 250px;
+}
+.predicate, .match {
+	background: #AFD552;
+	border: 1px solid #0C4942;
+	width: 800px;
+	margin: 0 auto 0 auto;
+}
+a {outline: 0 none;}
+/*
+#fancybox-thumbs ul li a {
+border: 0 none !important;
+color: #fff !important;
+line-height: 16px;
+text-align: center;
+text-decoration: none;
+}*/
+.fancybox-skin {
+	float: left !important;
+	margin: 30px !important;
+}
+.fancybox-title {
+	float: right !important;
+	height: 550px !important;
+	max-width: 400px;
+	overflow-y: scroll !important;
+	padding: 20px !important;
+	background-color: white !important;
+	color: #4D4D4D !important;
+	margin: 30px !important;
+}
+.fancybox-wrap {
+	background: black;
+	width: 80% !important;
+}
+.fancybox-title .child {
+	margin-right: 0px !important;
+	white-space: normal !important;
+}
+table.matchtable {
+	margin: 0 auto 10px auto;
+	table-layout: fixed;
+	width: 200px;
+}
+table.matchtable td {
+	padding: 3px;
+	background: white;
+	border: 1px solid #000;
+}
+
+td.matchPredicate {
+	text-align: center;
+	background-color: #858e86;
+}
+table.matchtable td.column {
+	width: 200px; 
+	display: block;
+}
+table.matchtable td.first {
+	width: 20px; 
+	display: block;
+}
+.scrollmatchtable {
+	padding: 10px;
+}
+#zoomin, #zoomout {
+	border-radius: 5px; 
+	background: black; 
+	z-index: 100000; 
+	position: fixed; 
+	padding: 10px;
+	font-size: 20px;
+	left: 10px; 
+	width: 15px; 
+	height: 15px; 
+	color: white; 
+	cursor: pointer;
+	display: none;
+}
+#zoomin {
+	top: 10px;
+}
+#zoomout {
+	top: 50px;
+}
+.notshown {
+	padding: 10px;
+}
+/*table.matchtable td.bottom-left-angle {
+	border: 0px;
+	border: 1px 1px 0px 0px !important;
+	background: transparent !important;
+}*/
